@@ -1,0 +1,3 @@
+S-001: GPS loss test in PX4 VTOL simulation
+Goal: turn GPS off in flight and see what PX4 does
+Proof: show it with the flight log graphs
