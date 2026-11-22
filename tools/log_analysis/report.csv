@@ -1,0 +1,20 @@
+date,log,status,front_s,back_s,dip_m
+2026-11-10,08_55_17.ulg,skipped: no FW flight,,,
+2026-11-10,12_27_39.ulg,skipped: no FW flight,,,
+2026-11-10,19_03_22.ulg,skipped: no FW flight,,,
+2026-11-10,19_22_50.ulg,skipped: no FW flight,,,
+2026-11-10,19_29_10.ulg,skipped: no FW flight,,,
+2026-11-10,19_36_04.ulg,skipped: no FW flight,,,
+2026-11-11,08_58_26.ulg,ok,2.58,6.1,6.8
+2026-11-11,12_08_28.ulg,ok,2.56,10.01,8.8
+2026-11-11,12_16_36.ulg,ok,2.58,4.5,7.4
+2026-11-11,12_23_16.ulg,ok,2.59,5.86,7.5
+2026-11-12,10_35_43.ulg,skipped: no FW flight,,,
+2026-11-12,10_44_57.ulg,skipped: no FW flight,,,
+2026-11-12,10_45_51.ulg,skipped: no FW flight,,,
+2026-11-12,10_46_16.ulg,skipped: no FW flight,,,
+2026-11-12,10_47_32.ulg,ok,2.46,5.65,8.9
+2026-11-12,10_57_09.ulg,skipped: no back transition,,,
+2026-11-12,11_14_22.ulg,ok,2.5,5.69,8.5
+2026-11-12,11_18_57.ulg,ok,2.54,4.01,7.3
+2026-11-12,11_25_20.ulg,skipped: no FW flight,,,
