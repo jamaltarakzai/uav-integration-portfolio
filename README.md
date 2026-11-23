@@ -3,8 +3,9 @@
 **Jamal Ahmed Mohmand** · UAV Technical Lead · 25+ years in avionics and unmanned systems
 [LinkedIn](https://www.linkedin.com/in/jamal-ahmed-uav) · Jizan, Saudi Arabia
 
-This repository documents real work: field repairs of UAVs, PX4 / ArduPilot configuration and
-flight-log analysis, and flight test planning for a 400 kg twin-boom quadplane VTOL.
+This repository documents real work: field repairs of UAVs, PX4 / ArduPilot
+configuration and flight-log analysis, and flight test planning for a 60 kg
+twin-boom quadplane VTOL.
 Every case shows **the problem, the evidence, the fix and the result**.
 
 ## At a glance
