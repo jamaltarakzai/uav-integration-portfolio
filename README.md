@@ -62,3 +62,11 @@ templates/      the blank template used for every repair case
 Repair cases are written from my own work with identifying details removed: no client names,
 locations, serial numbers, aircraft model names or restricted documents. They describe method
 and engineering reasoning only.
+
+
+
+## Case studies
+
+| Case | Summary | Report |
+|---|---|---|
+| [C-001](cases/C-001-multirotor-upset/) | Multirotor upset in forward flight: uncommanded yaw and roll traced to a motor / propeller / ESC thrust loss | [Interactive](https://jamaltarakzai.github.io/uav-integration-portfolio/c001/) |
