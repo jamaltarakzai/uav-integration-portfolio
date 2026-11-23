@@ -1,4 +1,4 @@
-# UAV Integration, Repair & Flight Test Portfolio
+# UAV Integration, Repair & Flight Test 
 
 **Jamal Ahmed Mohmand** · UAV Technical Lead · 25+ years in avionics and unmanned systems
 [LinkedIn](https://www.linkedin.com/in/jamal-ahmed-uav) · Jizan, Saudi Arabia
@@ -22,8 +22,22 @@ Every case shows **the problem, the evidence, the fix and the result**.
 | ID | Title | Tools | Status |
 |---|---|---|---|
 | S-001 | GPS loss injected in VTOL SITL, diagnosed from the flight log | PX4, Gazebo, Flight Review, PlotJuggler | planned (Dec 2026) |
+| S-002 | First PX4 VTOL SITL flight: setup, preflight checks, arming | PX4, Gazebo, QGroundControl | done |
+| S-003 | VTOL back-transition test: effect of `VT_B_TRANS_DUR`, FW altitude loss | PX4, PlotJuggler, Python | done |
 | I-001 | Payload / camera pod integration: wiring, levels, control link | MAVLink, RS232/RS422, Ethernet | planned (Jan 2027) |
 | F-001 | Flight test plan for a 60 kg twin-boom quadplane VTOL | PX4, test cards, risk matrix | planned (Feb 2027) |
+
+## Log analysis tools
+
+Python tools in `tools/log_analysis/` (pyulog, pandas, matplotlib):
+
+| Tool | What it does |
+|---|---|
+| `vtol_analyzer.py` | One PX4 log: MC / transition / FW segments, transition times, FW altitude dip, 3-panel report PNG |
+| `batch_report.py` | Every `.ulg` in a folder: one CSV row per flight, skips incomplete logs with a clear reason |
+| `params_check.py` | Initial values and in-flight changes of selected parameters, per log |
+| `list_topics.py` | Topics in a log and their sample counts |
+| `topic_rates.py` | Logging rate (Hz) of key topics |
 
 ## Repair cases
 
@@ -40,6 +54,7 @@ integration/    wiring diagrams, interface notes, payload integration (I-xxx)
 flight-test/    test plans and test card templates (F-xxx)
 cpp-for-px4/    small C++ utilities for PX4 work
 notes/          technical notes (PX4 architecture, MAVLink ...)
+tools/          flight-log analysis tools (Python)
 templates/      the blank template used for every repair case
 ```
 
